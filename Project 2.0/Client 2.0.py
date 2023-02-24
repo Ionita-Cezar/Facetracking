@@ -70,8 +70,8 @@ class FaceDetector(object):
     def run(self):
         cap = cv2.VideoCapture(0)
         with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
-            HOST = '192.168.137.38'
-            PORT = 65321
+            HOST = 'xxx.xxx.xxx.xx'
+            PORT = xxxxx
             s.connect((HOST, PORT))
             start_time = time.time()
             while True:
