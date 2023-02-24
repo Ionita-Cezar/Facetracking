@@ -25,8 +25,8 @@ counter1 = 7
 counter2 = 7
 
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
-    HOST = '192.168.137.38'
-    PORT = 65324
+    HOST = 'xxx.xxx.xxx.xx'
+    PORT = xxxxx
     s.bind((HOST, PORT))
     s.listen(1)
     conn, addr = s.accept()
