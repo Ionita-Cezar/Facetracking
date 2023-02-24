@@ -48,8 +48,8 @@ name_list = load_data[1]
 cam = cv2.VideoCapture(1)
 
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
-    HOST = '192.168.6.216'
-    PORT = 65323
+    HOST = 'xxx.xxx.xxx.xxx'
+    PORT = xxxxx
     s.connect((HOST, PORT))
     start_time = time.time()
     while True:
