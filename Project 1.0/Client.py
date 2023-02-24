@@ -13,8 +13,8 @@ a1=0
 a2=0
 
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
-    HOST = '192.168.137.38'
-    PORT = 65324
+    HOST = 'xxx.xxx.xx.xx'
+    PORT = xxxxx
     s.connect((HOST,PORT))
     start_time=time.time()
     while True:
